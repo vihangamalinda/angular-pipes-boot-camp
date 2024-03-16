@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ShortenPipe } from './shorten.pipe';
 import { ShortenByRangePipe } from './shortenByRange.pip';
 import { FilterPipe } from './filter.pipe';
+import { ReversePipe } from './reverse/reverse.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShortenPipe,
     ShortenByRangePipe,
-    FilterPipe
+    FilterPipe,
+    ReversePipe
   ],
   imports: [
     BrowserModule,

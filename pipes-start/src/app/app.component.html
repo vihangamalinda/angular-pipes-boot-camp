@@ -22,6 +22,7 @@
           <strong>{{ server.name | shortenByRange:6 }}</strong>
            | {{ server.instanceType |uppercase}} 
            | {{ server.started|date:'fullDate' | uppercase }}
+           | {{ server.instanceType |reverse}} 
         </li>
       </ul>
     </div>
